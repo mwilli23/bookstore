@@ -1,7 +1,8 @@
 <h1>Books</h1>
-<p>Available as of <% @books.each do |book| %></p>
+<p>Available as of <% @available_at %></p>
+
 <ol>
 <% @books.each do |book| %>
    <li><%= book %></li>
-   <% end %>
+<% end %>
 </ol>
